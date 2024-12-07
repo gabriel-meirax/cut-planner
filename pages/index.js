@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>senhora dona Maria da Glória</h1>;
+  return <h1>Aqui terá um Web App para planejamento de cortes</h1>;
 }
 
 function teste() {
