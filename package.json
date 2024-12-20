@@ -4,7 +4,8 @@
   "description": "Solução para planejamento de cortes de tubos e chapas.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run database && next dev",
+    "database": "docker compose -f infra/compose.yaml up -d",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
